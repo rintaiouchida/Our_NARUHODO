@@ -1,0 +1,44 @@
+body{
+  position:relative;
+}
+.navbar {
+  background-color: #222831;
+  color: white;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:1;
+}
+.navbar-logo {
+  height: 60px;
+  margin-right: 15px;
+  color:white;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.main {
+  margin-top:100px;
+  background-color: #f9f9f9;
+  min-height: 85vh;
+  padding: 30px 5%;
+  color:black;
+}
+.pagetitle {
+  color: black;
+  margin-bottom: 20px;
+}
+.footer {
+  background-color: #222831;
+  text-align: center;
+  color: white;
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+}
+.copyright {
+  color:white;
+}
